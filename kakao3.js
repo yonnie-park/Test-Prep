@@ -27,9 +27,9 @@ function solution(s, times) {
             date[4]+=Math.floor(date[5]/60)
             date[5]%=60
         }
-        if(date[4]>59){
+        if(date[4]>59){ //이거 24로해서 안돌아갔었음ㅋㅋㅋㅋㅋㅎㅋㅎ
             date[3]+=Math.floor(date[4]/60)
-            date[4]%=60
+            date[4]%=60 
         }
         if(date[3]>23){
             date[2]+=Math.floor(date[3]/24)
